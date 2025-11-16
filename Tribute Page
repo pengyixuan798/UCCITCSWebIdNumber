@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tribute Page - Dr. Norman Borlaug</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main id="main">
+    <header>
+      <h1 id="title">Dr. Norman Borlaug</h1>
+      <p class="subtitle">The scientist whose work helped feed billions</p>
+    </header>
+
+    <figure id="img-div" class="hero">
+      <img
+        id="image"
+        src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Norman_Borlaug.jpg"
+        alt="Portrait of Dr. Norman Borlaug"
+      />
+      <figcaption id="img-caption">
+        Norman Borlaug (1914–2009) — agronomist, humanitarian, Nobel Peace Prize laureate.
+      </figcaption>
+    </figure>
+
+    <section id="tribute-info" class="content">
+      <h2>Why he matters</h2>
+      <p>
+        Norman Borlaug developed high-yielding, disease-resistant wheat varieties and helped launch the Green Revolution,
+        dramatically increasing food production in many developing countries and saving millions from starvation.
+      </p>
+
+      <h3>Selected milestones</h3>
+      <ul class="timeline">
+        <li>
+          <time>1944</time>
+          <div class="ev">Started breeding wheat varieties in Mexico.</div>
+        </li>
+        <li>
+          <time>1960s</time>
+          <div class="ev">Green Revolution spreads to South Asia — major yield increases in India and Pakistan.</div>
+        </li>
+        <li>
+          <time>1970</time>
+          <div class="ev">Awarded the Nobel Peace Prize for contributions to world food supply.</div>
+        </li>
+      </ul>
+
+      <blockquote class="quote">
+        "There are no inevitabilities in human affairs — not in war, not in hunger, not in revolution."
+        <cite>— Norman Borlaug</cite>
+      </blockquote>
+
+      <p>
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank" rel="noopener noreferrer">
+          Read more on Wikipedia
+        </a>
+      </p>
+    </section>
+  </main>
+</body>
+</html>
